@@ -934,6 +934,9 @@
     <menu id="8">
       <phrase id="menutext" value="Customer" />
     </menu>
+    <menu id="100">
+      <phrase id="menutext" value="Brand" />
+    </menu>
     <menu id="9">
       <phrase id="menutext" value="Product" />
     </menu>
@@ -1062,9 +1065,6 @@
     </menu>
     <menu id="324">
       <phrase id="menutext" value="Alamat" />
-    </menu>
-    <menu id="100">
-      <phrase id="menutext" value="Brand" />
     </menu>
     <menu id="12">
       <phrase id="menutext" value="Satuan" />

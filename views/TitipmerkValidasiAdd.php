@@ -164,8 +164,8 @@ loadjs.ready(["ftitipmerk_validasiadd", "datetimepicker"], function() {
         <div class="<?= $Page->RightColumnClass ?>"><div <?= $Page->valid->cellAttributes() ?>>
 <span id="el_titipmerk_validasi_valid">
 <div class="custom-control custom-checkbox d-inline-block">
-    <input type="checkbox" class="custom-control-input<?= $Page->valid->isInvalidClass() ?>" data-table="titipmerk_validasi" data-field="x_valid" name="x_valid[]" id="x_valid_865753" value="1"<?= ConvertToBool($Page->valid->CurrentValue) ? " checked" : "" ?><?= $Page->valid->editAttributes() ?> aria-describedby="x_valid_help">
-    <label class="custom-control-label" for="x_valid_865753"></label>
+    <input type="checkbox" class="custom-control-input<?= $Page->valid->isInvalidClass() ?>" data-table="titipmerk_validasi" data-field="x_valid" name="x_valid[]" id="x_valid_671485" value="1"<?= ConvertToBool($Page->valid->CurrentValue) ? " checked" : "" ?><?= $Page->valid->editAttributes() ?> aria-describedby="x_valid_help">
+    <label class="custom-control-label" for="x_valid_671485"></label>
 </div>
 <?= $Page->valid->getCustomMessage() ?>
 <div class="invalid-feedback"><?= $Page->valid->getErrorMessage() ?></div>

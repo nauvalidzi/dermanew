@@ -203,8 +203,8 @@ loadjs.ready(["fnpd_termsadd", "datetimepicker"], function() {
         <div class="<?= $Page->RightColumnClass ?>"><div <?= $Page->sifatorder->cellAttributes() ?>>
 <span id="el_npd_terms_sifatorder">
 <div class="custom-control custom-checkbox d-inline-block">
-    <input type="checkbox" class="custom-control-input<?= $Page->sifatorder->isInvalidClass() ?>" data-table="npd_terms" data-field="x_sifatorder" name="x_sifatorder[]" id="x_sifatorder_112415" value="1"<?= ConvertToBool($Page->sifatorder->CurrentValue) ? " checked" : "" ?><?= $Page->sifatorder->editAttributes() ?> aria-describedby="x_sifatorder_help">
-    <label class="custom-control-label" for="x_sifatorder_112415"></label>
+    <input type="checkbox" class="custom-control-input<?= $Page->sifatorder->isInvalidClass() ?>" data-table="npd_terms" data-field="x_sifatorder" name="x_sifatorder[]" id="x_sifatorder_573582" value="1"<?= ConvertToBool($Page->sifatorder->CurrentValue) ? " checked" : "" ?><?= $Page->sifatorder->editAttributes() ?> aria-describedby="x_sifatorder_help">
+    <label class="custom-control-label" for="x_sifatorder_573582"></label>
 </div>
 <?= $Page->sifatorder->getCustomMessage() ?>
 <div class="invalid-feedback"><?= $Page->sifatorder->getErrorMessage() ?></div>
