@@ -3,3 +3,4 @@ src/config.php
 src/config.development.php
 src/config.production.php
 files/*
+vendor/composer/platform_check.php
